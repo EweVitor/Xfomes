@@ -1,0 +1,142 @@
+
+:root{
+    --cor1 :#035963;
+    --cor2 :#528c45;
+    --cor3 :#74b567;
+    --cor4 :#81c273;
+    --cor5 :#f5f5f5;
+    --cor6 :#104349;
+    --cor7 :#16737e;
+}
+@media (max-width: 575.98px) { 
+
+
+}
+
+
+@media (max-width: 767.98px) { 
+    div.carousel{
+        max-width: 700px;
+        width: auto;
+        
+    }
+}
+
+@media (max-width: 991.98px) {
+    div.carousel{
+        max-width: 930px;
+        width: auto;
+
+    }
+    footer div ul li a{
+        font-size: 20px;
+
+    }
+}
+
+
+@media (max-width: 1199.98px) {
+    div.carousel{
+        max-width: 1000px;
+        width: auto;
+        margin: auto;
+    }
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: var(--cor1);
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.titulo{
+    background-color: var(--cor1);
+}
+header img{
+    display:block;
+    
+    margin: auto;
+    max-width: 450px;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+    padding-top: 86px;
+}
+.classA{
+    color: rgb(22, 22, 22);
+    font-size: 40px;
+}
+.classB{
+    color: black;
+    font-size: 25px;
+}
+
+.carousel{
+    max-width: 1200px;
+    width: auto;
+    margin: auto;
+    
+}
+header{
+    background-color: var(--cor1);
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    background-color: var(--cor6);
+    z-index: 1000;
+
+}
+aside p{
+    margin: 5px;
+   
+    font-size:25px;
+}
+footer{
+    clear: both;
+    background-color: var(--cor7);
+    text-align: justify;
+    margin-top: 8px;
+    
+}
+
+footer h2 {
+    font-size: 35px;
+}
+footer div a{
+    color: black;
+    text-decoration: none;
+    padding-right: 5px;
+    transition: 1s all ease;
+}
+
+footer div i{
+    
+    font-size: 27px;
+    color:var(--cor2);
+    transition: 1s all ease;
+    
+}
+footer div ul li{
+    font-size: 27px;
+}
+footer div ul li:hover{
+    color: var(--cor5);
+    
+}
+footer div ul i:hover{
+    color: var(--cor5);
+    
+}
+ul {
+    
+    display: inline-block;
+}
+ul li{
+    margin: 8px;
+    font-size: 18px;
+    padding-left: 5;
+}
