@@ -9,7 +9,15 @@
     --cor7 :#16737e;
 }
 @media (max-width: 575.98px) { 
-
+    footer.footer li{
+        font-size: 15px;
+    }
+    footer.footer h2{
+        font-size: 22px;
+    }
+    a.navbar-brand.classA{
+        font-size: 27px;
+    }
 
 }
 
@@ -17,8 +25,17 @@
 @media (max-width: 767.98px) { 
     div.carousel{
         max-width: 700px;
-        width: auto;
-        
+        width: auto;    
+    }
+
+    footer.footer li{
+        font-size: 24px;
+    }
+    footer.footer h2{
+        font-size: 30px;
+    }
+    a.navbar-brand.classA{
+        font-size: 34px;
     }
 }
 
