@@ -7,6 +7,7 @@
     --cor5 :#f5f5f5;
     --cor6 :#104349;
     --cor7 :#16737e;
+    --cor8 :#9cd190;
 }
 @media (max-width: 575.98px) { 
     footer.footer div ul li{
@@ -34,7 +35,7 @@
         width: auto;    
     }
 
-    footer.footer li{
+    footer.footer div ul li{
         font-size: 24px;
     }
     footer.footer h2{
@@ -49,11 +50,15 @@
     div.carousel{
         max-width: 930px;
         width: auto;
+       
 
     }
-    footer div ul li a{
-        font-size: 20px;
+    footer.footer div ul li{
+        font-size: 22px;
 
+    }
+    a.navbar-brand.classA{
+        font-size: 30px;
     }
 }
 
@@ -98,7 +103,7 @@ header img{
 }
 
 .carousel{
-    max-width: 1200px;
+    max-width: 200px;
     width: auto;
     margin: auto;
     
@@ -106,6 +111,7 @@ header img{
 header{
     background-color: var(--cor1);
 }
+
 .menu{
     position: fixed;
     width: 100%;
@@ -116,7 +122,7 @@ header{
 aside p{
     margin: 5px;
    
-    font-size:25px;
+    font-size:15px;
 }
 footer{
     clear: both;
@@ -130,12 +136,17 @@ footer h2 {
     font-size: 35px;
 }
 footer div a{
-    color: black;
+    color: #212529;
     text-decoration: none;
-    padding-right: 5px;
+    padding-left: 5px;
     transition: 1s all ease;
 }
-
+i.fab , i.fas{
+    padding-right: 5px;
+}
+footer div a:hover{
+    color: white;
+}
 footer div i{
     
     font-size: 27px;
