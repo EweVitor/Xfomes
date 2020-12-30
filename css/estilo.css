@@ -9,13 +9,13 @@
     --cor7 :#16737e;
 }
 @media (max-width: 575.98px) { 
-    footer.footer li{
-        font-size: 15px;
+    footer.footer div ul li{
+        font-size: 16px;
     }
-    footer.footer h2{
-        font-size: 22px;
+    body footer.footer h2{
+        font-size: 27px;
     }
-    a.navbar-brand.classA{
+    nav.navbar a.navbar-brand.classA{
         font-size: 27px;
     }
 
