@@ -44,6 +44,24 @@
     a.navbar-brand.classA{
         font-size: 34px;
     }
+    aside h2{
+        font-size: 20px;
+
+    }
+    h5.card-title{
+        font-size: 20px;
+
+    }
+    h3.preco{
+        font-size: 14px;
+    }
+    div.card-body p{
+        font-size: 12px;
+    }
+    h2.tituloCardap {
+        font-size: 26px;
+    }
+    
 }
 
 @media (max-width: 991.98px) {
@@ -108,6 +126,17 @@ header img{
     margin: auto;
     
 }
+.btn-outline-success{
+    border-color: var(--cor3);
+}
+.btn-outline-success:hover{
+    
+    background-color: var(--cor2);
+}.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    background-color: var(--cor2);
+
+}
+
 header{
     background-color: var(--cor1);
 }
@@ -124,6 +153,26 @@ aside p{
    
     font-size:15px;
 }
+.tituloCardap{
+    font-size: 33px;
+   border-top: 4px solid var(--cor6);
+    
+    text-align: center;
+    background-color: var(--cor7);
+   
+
+}
+.cardCardapio{
+    background-color: var(--cor7);
+}
+.card-title{
+    font-size: 30px;
+
+}
+.preco{
+    font-size: 20px;
+}
+
 footer{
     clear: both;
     background-color: var(--cor7);
