@@ -87,6 +87,7 @@
         width: auto;
         margin: auto;
     }
+ 
 }
 
 *{
@@ -101,6 +102,15 @@ body{
 .titulo{
     background-color: var(--cor1);
 }
+.tituloCont{
+    text-align: center;
+    background-color: var(--cor6);
+    border-top: 2px solid var(--cor2);
+}
+.insta{
+    width: 200px; height: 300px;
+}
+
 header img{
     display:block;
     
@@ -140,6 +150,12 @@ header img{
 header{
     background-color: var(--cor1);
 }
+.contato{
+    width: 20%;
+    height: auto;
+    margin: auto;
+
+}
 
 .menu{
     position: fixed;
@@ -176,11 +192,22 @@ aside p{
 footer{
     clear: both;
     background-color: var(--cor7);
-    text-align: justify;
+    text-align: center;
     margin-top: 8px;
     
 }
+.nav-link{
+    color: black;
 
+}
+.mapa{
+    width: 100%;
+    height: 600px;
+    
+}
+.cardapioTab{
+    background-color: var(--cor6);
+}
 footer h2 {
     font-size: 35px;
 }
