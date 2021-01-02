@@ -126,7 +126,7 @@ iframe{
     margin: auto;
 }
 blockquote.instagram-media{
-    margin: auto;
+    margin: 0px;
 }
 blockquote{
     margin: auto;
@@ -168,6 +168,10 @@ header{
     background-color: var(--cor6);
     z-index: 1000;
 
+}
+aside{
+    margin: auto;
+    
 }
 aside p{
     margin: 5px;
