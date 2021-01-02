@@ -122,6 +122,12 @@ header img{
     padding-top: 86px;
     
 }
+iframe#instagram-embed-0.instagram-media.instagram-media-rendered{
+    margin: auto;
+}
+blockquote.instagram-media{
+    margin: auto;
+}
 .classA{
     color: rgb(22, 22, 22);
     font-size: 40px;
